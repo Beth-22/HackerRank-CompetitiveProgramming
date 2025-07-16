@@ -6,7 +6,7 @@ A collection of solutions to HackerRank problems.
 Javascript
 
 
-## 🏷️ Topics Covered
+##  Topics Covered
 
 - Arrays  
 - Strings  
