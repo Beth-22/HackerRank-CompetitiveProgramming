@@ -1,20 +1,27 @@
-function mergeTwoLists(list1, list2) {
-    let dummy = new ListNode(0);
-    let current = dummy;
+function sortArray(nums) {
+    if (nums.length <= 1) return nums;
 
-    while (list1 !== null && list2 !== null) {
-        if (list1.val < list2.val) {
-            current.next = list1;
-            list1 = list1.next;
-        } else {
-            current.next = list2;
-            list2 = list2.next;
-        }
-        current = current.next;
-    }
+    const mid = Math.floor(nums.length / 2);
+    const left = sortArray(nums.slice(0, mid));
+    const right = sortArray(nums.slice(mid));
 
-    current.next = list1 !== null ? list1 : list2;
-
-    return dummy.next;
+    return merge(left, right);
 }
 
+function merge(left, right) {
+    let result = [], i = 0, j = 0;
+
+    while (i < left.length && j < right.length) {
+        if (left[i] < right[j]) {
+            result.push(left[i++]);
+        } else {
+            result.push(right[j++]);
+        }
+    }
+
+    // Add remaining elements
+    while (i < left.length) result.push(left[i++]);
+    while (j < right.length) result.push(right[j++]);
+
+    return result;
+}
