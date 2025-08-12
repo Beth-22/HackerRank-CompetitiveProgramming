@@ -23,7 +23,7 @@ function readLine() {
 }
 
 /*
- * Complete the 'sockMerchant' function below.
+ * Complete the 'sockMerchant' function below
  *
  * The function is expected to return an INTEGER.
  * The function accepts following parameters:
