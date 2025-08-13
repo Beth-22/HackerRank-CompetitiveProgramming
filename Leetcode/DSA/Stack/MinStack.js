@@ -4,7 +4,7 @@ var MinStack = function() {
 };
 
 /** 
- * @param {number} val
+ * @param {number} val.
  * @return {void}
  */
 MinStack.prototype.push = function(val) {
