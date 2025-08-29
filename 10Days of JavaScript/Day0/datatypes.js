@@ -25,9 +25,9 @@ function readLine() {
 /**
 *   The variables 'firstInteger', 'firstDecimal', and 'firstString' are declared for you -- do not modify them.
 *   Print three lines:
-*   1. The sum of 'firstInteger' and the Number representation of 'secondInteger'.
-*   2. The sum of 'firstDecimal' and the Number representation of 'secondDecimal'.
-*   3. The concatenation of 'firstString' and 'secondString' ('firstString' must be first).
+*   1. The sum of 'firstInteger' and the Number representation of 'secondInteger'
+*   2. The sum of 'firstDecimal' and the Number representation of 'secondDecimal'
+*   3. The concatenation of 'firstString' and 'secondString' ('firstString' must be first)
 *
 *	Parameter(s):
 *   secondInteger - The string representation of an integer.
