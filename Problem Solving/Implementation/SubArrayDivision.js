@@ -23,7 +23,7 @@ function readLine() {
 }
 
 /*
- * Complete the 'birthday' function below.
+ * Complete the 'birthday' function below
  *
  * The function is expected to return an INTEGER.
  * The function accepts following parameters:
