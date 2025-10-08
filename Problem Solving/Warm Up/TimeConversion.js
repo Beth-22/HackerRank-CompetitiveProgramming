@@ -23,7 +23,7 @@ function readLine() {
 }
 
 /*
- * Complete the 'timeConversion' function below.
+ * Complete the 'timeConversion' function below
  *
  * The function is expected to return a STRING.
  * The function accepts STRING s as parameter.
