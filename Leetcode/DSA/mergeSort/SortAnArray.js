@@ -19,7 +19,7 @@ function merge(left, right) {
         }
     }
 
-    // Add remaining elementss
+    // Add remaining elements
     while (i < left.length) result.push(left[i++]);
     while (j < right.length) result.push(right[j++]);
 
